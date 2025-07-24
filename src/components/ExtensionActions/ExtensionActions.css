@@ -37,10 +37,10 @@
 }
 .light-mode {
   .extension-actions-container {
-    button{
+    button {
       color: hsl(227, 75%, 14%);
       border-color: hsl(217, 61%, 90%);
-      &:hover{
+      &:hover {
         outline: 1px solid hsl(217, 61%, 90%);
         background-color: hsl(217, 61%, 90%);
       }
@@ -56,10 +56,10 @@
       }
     }
   }
-  .extension{
-    .remove-button:hover{
-        background-color: hsl(3, 71%, 56%);
-        color: hsl(217, 61%, 90%);
+  .extension {
+    .remove-button:hover {
+      background-color: hsl(3, 71%, 56%);
+      color: hsl(217, 61%, 90%);
     }
   }
 }

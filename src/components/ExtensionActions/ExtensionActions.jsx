@@ -8,7 +8,9 @@ const ExtensionActions = (props) => {
       </div>
       <div className={"extension-action-buttons"}>
         <button
-          className={filter === "all" && (theme === "light" ? "active-light": "active")}
+          className={
+            filter === "all" && (theme === "light" ? "active-light" : "active")
+          }
           onClick={() => {
             setFilter("all");
           }}
@@ -16,7 +18,10 @@ const ExtensionActions = (props) => {
           All
         </button>
         <button
-          className={filter === "active" && (theme === "light" ? "active-light": "active")}
+          className={
+            filter === "active" &&
+            (theme === "light" ? "active-light" : "active")
+          }
           onClick={() => {
             setFilter("active");
           }}
@@ -24,7 +29,10 @@ const ExtensionActions = (props) => {
           Active
         </button>
         <button
-          className={filter === "inactive" && (theme === "light" ? "active-light": "active")}
+          className={
+            filter === "inactive" &&
+            (theme === "light" ? "active-light" : "active")
+          }
           onClick={() => {
             setFilter("inactive");
           }}

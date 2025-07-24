@@ -90,20 +90,22 @@ input:checked + .slider::before {
   transform: translateX(20px);
 }
 .light-mode {
-  .extension, .extension-header{
+  .extension,
+  .extension-header {
     background: hsl(216, 100%, 99%);
-    border-color: #DBE2EC;
+    border-color: #dbe2ec;
   }
-  .toggle-theme{
-    background: #EFEDEE;
-    &:hover, &:focus{
-      outline: 1px solid #DBE2EC;
+  .toggle-theme {
+    background: #efedee;
+    &:hover,
+    &:focus {
+      outline: 1px solid #dbe2ec;
     }
   }
   .description {
-    color: #57585E;
+    color: #57585e;
   }
-  .remove-button{
+  .remove-button {
     color: hsl(227, 75%, 14%);
     border-color: hsl(217, 61%, 90%);
   }

@@ -20,7 +20,7 @@ function App() {
     });
   };
   return (
-    <div className={`app ${theme === "light" ? "light-mode": "dark-mode"}`}>
+    <div className={`app ${theme === "light" ? "light-mode" : "dark-mode"}`}>
       <ExtensionHeader setTheme={setTheme} theme={theme} />
       <ExtensionActions filter={filter} setFilter={setFilter} theme={theme} />
       {extensionData
@@ -46,7 +46,7 @@ function App() {
               }}
               removeExtension={() => {
                 setExtensionData((prevData) =>
-                  prevData.filter((_, index) => index !== idx)
+                  prevData.filter((_, index) => index !== idx),
                 );
               }}
             />

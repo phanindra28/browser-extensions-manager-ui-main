@@ -5,12 +5,12 @@ This is a solution to the [Browser extensions manager UI challenge on Frontend M
 ## Table of contents
 
 - [Overview](#overview)
-    - [The challenge](#the-challenge)
-    - [Screenshot](#screenshot)
-    - [Links](#links)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -27,17 +27,22 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshots:
+
 - Desktop
+
   #### Light Mode
-![Light Mode](src/implementation/desktop/light-mode.png)
+
+  ![Light Mode](src/implementation/desktop/light-mode.png)
+
   #### Dark Mode
-![Dark Mode](src/implementation/desktop/dark-mode.png)
+
+  ![Dark Mode](src/implementation/desktop/dark-mode.png)
 
 - Tablet
   #### Light Mode
-![Light Mode](src/implementation/tablet/light-mode.png)
+  ![Light Mode](src/implementation/tablet/light-mode.png)
   #### Dark Mode
-![Dark Mode](src/implementation/tablet/dark-mode.png)
+  ![Dark Mode](src/implementation/tablet/dark-mode.png)
 - Mobile
   #### Light Mode
   ![Light Mode](src/implementation/mobile/light-mode.png)
