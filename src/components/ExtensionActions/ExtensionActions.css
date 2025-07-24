@@ -27,13 +27,39 @@
     }
   }
   .active {
-    background-color: hsl(3, 71%, 56%) !important;
+    background-color: hsl(3, 71%, 56%);
     color: hsl(226, 25%, 17%);
-  }
-  .active-light {
-    background-color: hsl(0, 0%, 93%);
-    color: transparent;
     &:hover {
+      background-color: hsl(3, 71%, 56%);
+      outline: 1px solid hsl(3, 71%, 56%);
+    }
+  }
+}
+.light-mode {
+  .extension-actions-container {
+    button{
+      color: hsl(227, 75%, 14%);
+      border-color: hsl(217, 61%, 90%);
+      &:hover{
+        outline: 1px solid hsl(217, 61%, 90%);
+        background-color: hsl(217, 61%, 90%);
+      }
+    }
+    .active-light {
+      border-color: hsl(217, 61%, 90%);
+      background-color: hsl(3, 71%, 56%);
+      color: #fff;
+
+      &:hover {
+        background-color: hsl(3, 71%, 56%);
+        color: #fff;
+      }
+    }
+  }
+  .extension{
+    .remove-button:hover{
+        background-color: hsl(3, 71%, 56%);
+        color: hsl(217, 61%, 90%);
     }
   }
 }

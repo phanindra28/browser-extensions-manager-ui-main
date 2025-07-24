@@ -1,6 +1,6 @@
 import "./ExtensionActions.css";
 const ExtensionActions = (props) => {
-  const { filter, setFilter } = props;
+  const { filter, setFilter, theme } = props;
   return (
     <div className={"extension-actions-container"}>
       <div style={{ fontSize: "1.75rem", fontWeight: "bold" }}>
@@ -8,7 +8,7 @@ const ExtensionActions = (props) => {
       </div>
       <div className={"extension-action-buttons"}>
         <button
-          className={filter === "all" && "active"}
+          className={filter === "all" && (theme === "light" ? "active-light": "active")}
           onClick={() => {
             setFilter("all");
           }}
@@ -16,7 +16,7 @@ const ExtensionActions = (props) => {
           All
         </button>
         <button
-          className={filter === "active" && "active"}
+          className={filter === "active" && (theme === "light" ? "active-light": "active")}
           onClick={() => {
             setFilter("active");
           }}
@@ -24,7 +24,7 @@ const ExtensionActions = (props) => {
           Active
         </button>
         <button
-          className={filter === "inactive" && "active"}
+          className={filter === "inactive" && (theme === "light" ? "active-light": "active")}
           onClick={() => {
             setFilter("inactive");
           }}

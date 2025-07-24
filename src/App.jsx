@@ -20,9 +20,9 @@ function App() {
     });
   };
   return (
-    <div className={"app dark-mode"}>
+    <div className={`app ${theme === "light" ? "light-mode": "dark-mode"}`}>
       <ExtensionHeader setTheme={setTheme} theme={theme} />
-      <ExtensionActions filter={filter} setFilter={setFilter} />
+      <ExtensionActions filter={filter} setFilter={setFilter} theme={theme} />
       {extensionData
         .filter((extension) => {
           if (filter === "all") {
@@ -39,9 +39,15 @@ function App() {
           return (
             <Extension
               key={idx}
+              theme={theme}
               {...extension}
               toggleExtension={() => {
                 toggleExtension(idx);
+              }}
+              removeExtension={() => {
+                setExtensionData((prevData) =>
+                  prevData.filter((_, index) => index !== idx)
+                );
               }}
             />
           );
