@@ -1,0 +1,28 @@
+.extension-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #1f2535;
+  box-sizing: border-box;
+  grid-column: 1 / -1;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 16px;
+}
+.toggle-theme {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: hsl(226, 11%, 37%);
+  border-radius: 12px;
+  height: 40px;
+  &:focus,
+  &:hover {
+    border: none;
+    outline: 1px solid hsl(3, 71%, 56%);
+  }
+}
+.extension-title {
+  font-size: 24px;
+  font-weight: 700;
+}

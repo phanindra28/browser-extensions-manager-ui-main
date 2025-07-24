@@ -1,0 +1,92 @@
+.extension {
+  border: 1px solid #53596f;
+  border-radius: 16px;
+  display: grid;
+  padding: 16px;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 8px;
+  max-width: 23rem;
+  max-height: 12rem;
+  box-sizing: border-box;
+  /*background-color: hsl(226, 25%, 17%);*/
+  background-color: #1f2535;
+}
+
+.extension-logo {
+  grid-row: span 2 / span 2;
+}
+
+.extension-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.description {
+  grid-column-start: 2;
+  font-size: 14px;
+  color: hsl(0, 0%, 78%);
+}
+
+.remove-button {
+  width: fit-content;
+  grid-row-start: 3;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  border-radius: 32px;
+  border: 1px solid rgb(84, 89, 105);
+  color: rgb(237, 237, 237);
+  background-color: transparent;
+}
+
+.status-toggle {
+  grid-row-start: 3;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 20px;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: hsl(3, 86%, 64%);
+}
+
+input:checked + .slider::before {
+  transform: translateX(20px);
+}
