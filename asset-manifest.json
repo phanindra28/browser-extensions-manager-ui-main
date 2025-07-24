@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/browser-extensions-manager-ui-main/static/css/main.5a16e43c.css",
+    "main.js": "/browser-extensions-manager-ui-main/static/js/main.f37a47fd.js",
+    "static/js/453.953c2a2d.chunk.js": "/browser-extensions-manager-ui-main/static/js/453.953c2a2d.chunk.js",
+    "static/media/logo.svg": "/browser-extensions-manager-ui-main/static/media/logo.a9286ea67df761a6a40d.svg",
+    "static/media/logo-markup-notes.svg": "/browser-extensions-manager-ui-main/static/media/logo-markup-notes.654a0c7160cee9e059bf.svg",
+    "static/media/logo-link-checker.svg": "/browser-extensions-manager-ui-main/static/media/logo-link-checker.c34bd1554952c7582957.svg",
+    "static/media/logo-palette-picker.svg": "/browser-extensions-manager-ui-main/static/media/logo-palette-picker.f349e65e1836742dbc11.svg",
+    "static/media/logo-style-spy.svg": "/browser-extensions-manager-ui-main/static/media/logo-style-spy.9422f4e4b4ea5b34b4c6.svg",
+    "static/media/logo-devlens.svg": "/browser-extensions-manager-ui-main/static/media/logo-devlens.fabff81c65f6c2de5590.svg",
+    "static/media/logo-speed-boost.svg": "/browser-extensions-manager-ui-main/static/media/logo-speed-boost.cd7881271a67900b5609.svg",
+    "static/media/logo-dom-snapshot.svg": "/browser-extensions-manager-ui-main/static/media/logo-dom-snapshot.0b7ac155b6337d85db7a.svg",
+    "static/media/logo-viewport-buddy.svg": "/browser-extensions-manager-ui-main/static/media/logo-viewport-buddy.a27048f87a8544067ab5.svg",
+    "static/media/logo-grid-guides.svg": "/browser-extensions-manager-ui-main/static/media/logo-grid-guides.efbdbe578bb9e1c4e068.svg",
+    "index.html": "/browser-extensions-manager-ui-main/index.html",
+    "static/media/logo-json-wizard.svg": "/browser-extensions-manager-ui-main/static/media/logo-json-wizard.4844deded4052ee991e9.svg",
+    "static/media/logo-console-plus.svg": "/browser-extensions-manager-ui-main/static/media/logo-console-plus.ed5c162bcb3e3b54296c.svg",
+    "static/media/logo-tab-master-pro.svg": "/browser-extensions-manager-ui-main/static/media/logo-tab-master-pro.f9aa72a44199e67057e8.svg",
+    "static/media/icon-sun.svg": "/browser-extensions-manager-ui-main/static/media/icon-sun.6bef86cf311023651f26481291859e12.svg",
+    "static/media/icon-moon.svg": "/browser-extensions-manager-ui-main/static/media/icon-moon.894a1ef642e0f67d13003df0ae772bdf.svg",
+    "main.5a16e43c.css.map": "/browser-extensions-manager-ui-main/static/css/main.5a16e43c.css.map",
+    "main.f37a47fd.js.map": "/browser-extensions-manager-ui-main/static/js/main.f37a47fd.js.map",
+    "453.953c2a2d.chunk.js.map": "/browser-extensions-manager-ui-main/static/js/453.953c2a2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a16e43c.css",
+    "static/js/main.f37a47fd.js"
+  ]
+}
